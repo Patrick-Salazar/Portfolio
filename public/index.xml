@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patrick Salazar</title>
     <link>http://localhost:1313/Portfolio/</link>
     <description>Recent content on Patrick Salazar</description>
-    <generator>Hugo -- 0.147.9</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jun 2025 13:46:30 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/Portfolio/index.xml" rel="self" type="application/rss+xml" />
@@ -20,8 +20,7 @@
       <link>http://localhost:1313/Portfolio/about/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/Portfolio/about/</guid>
-      <description>&lt;p&gt;Hi, I’m Patrick Salazar — a data analyst and bioinformatics enthusiast based in Vancouver.&lt;br&gt;
-I’m passionate about building pipelines that solve real-world healthcare problems, especially in cancer genomics and gene expression modeling.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi, I’m &lt;strong&gt;Patrick Salazar&lt;/strong&gt; — a data analyst and aspiring data scientist with a strong foundation in mechanical engineering and manufacturing.&lt;/p&gt;&#xA;&lt;p&gt;My background includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Data analytics and machine learning&lt;/li&gt;&#xA;&lt;li&gt;Bioinformatics and RNA-Seq analysis&lt;/li&gt;&#xA;&lt;li&gt;Process engineering and risk assessment&lt;/li&gt;&#xA;&lt;li&gt;Project management in manufacturing industries&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I’m passionate about solving real-world problems through data, especially in healthcare, manufacturing, and emerging tech.&lt;/p&gt;&#xA;&lt;p&gt;This portfolio showcases selected projects, professional experience, and personal initiatives.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

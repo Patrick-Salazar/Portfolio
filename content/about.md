@@ -3,5 +3,14 @@ title: "About Me"
 date: 2025-06-25
 ---
 
-Hi, I’m Patrick Salazar — a data analyst and bioinformatics enthusiast based in Vancouver.  
-I’m passionate about building pipelines that solve real-world healthcare problems, especially in cancer genomics and gene expression modeling.
+Hi, I’m **Patrick Salazar** — a data analyst and aspiring data scientist with a strong foundation in mechanical engineering and manufacturing.
+
+My background includes:
+- Data analytics and machine learning
+- Bioinformatics and RNA-Seq analysis
+- Process engineering and risk assessment
+- Project management in manufacturing industries
+
+I’m passionate about solving real-world problems through data, especially in healthcare, manufacturing, and emerging tech.
+
+This portfolio showcases selected projects, professional experience, and personal initiatives.
