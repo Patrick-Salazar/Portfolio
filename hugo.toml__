@@ -1,0 +1,29 @@
+baseURL = "http://localhost:1313/Portfolio/"
+relativeURLs = true
+canonifyURLs = true
+languageCode = 'en-us'
+title = 'Patrick Salazar'
+theme = 'hugo-profile'
+
+[params]
+  author = "Patrick Salazar"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  defaultTheme = "light"
+  disableThemeToggle = false
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
