@@ -1,4 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://patrick-salazar.github.io/Portfolio/"
+relativeURLs: true
+canonifyURLs: true
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
