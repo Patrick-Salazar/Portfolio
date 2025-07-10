@@ -2,7 +2,7 @@ baseURL: "https://patrick-salazar.github.io/Portfolio/"
 relativeURLs: true
 canonifyURLs: true
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Patrick Salazar"
 theme: hugo-profile
 
 outputs:
@@ -31,95 +31,28 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+  main: []
 
 params:
   title: "Hugo Profile"
   description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
   favicon: "/converted_icon.png"
-
-  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
-  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
-  # Note the lack of "" in true, it should be of boolean type.
   useBootstrapCDN: false
-
-  # If you want to load dynamically responsive images from Cloudinary
-  # This requires your images to be uploaded + hosted on Cloudinary
-  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
-  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
-
-  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
-
-  # Whether the fade animations on the home page will be enabled
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
 
   font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
-    textAlign: left # default: left
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
 
-  # color preference
-  # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
-
-  #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
-
-  # If you want to customize the menu, you can change it here
   navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Patrick Salazar" # Brand name for the brand | default is the title variable
-    disableSearch: false
-    # searchPlaceholder: "Search"
+    align: ms-auto
+    brandName: "Patrick Salazar"
+    disableSearch: true
     stickyNavBar:
       enable : true
       showOnScrollUp : true
@@ -132,92 +65,85 @@ params:
       disableAchievements: false
       disableContact: false
 
-  # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Hi, I'm"
     title: "Patrick Salazar"
-    subtitle: "I'm a Problem Solver"
-    content: "I specialize in data analysis, machine learning, and process optimization. This portfolio showcases my projects, professional experiences, and skills in data analytics and engineering."
+    subtitle: "Analyst | Engineer"
+    content: "With a foundation in engineering and a passion for solving problems, I specialize in solving complex problems with actionable and data-driven solutions. My work spans data analysis & machine learning, process optimization, and project management. Driven by curiosity, precision, and a desire to solve problems for the betterment of life."
     image: /images/resized_portrait.jpg
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/file/d/1kr99veBhjsGl5FaAQCI8V6GcodMcdpUP/view"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/Patrick-Salazar
         - icon: fa-brands fa-linkedin
-          url: https://example.com
+          url: https://www.linkedin.com/in/patrick-salazar/
       customIcons:
 
-  # About
   about:
     enable: true
     title: "About Me"
     image: "/images/group_portrait_compressed.jpg"
     content: |-
-      I am an aspiring Machine Learning Engineer with a passion in problem solving. I have a background in Mechanical & Process Engineering, and I have a strong interest in challenging what's been said to be impossible in the books. I am currently currently taking my Post Degree Diploma in Data Analtics at [Langara College](https://langara.ca/programs-courses/data-analytics-post-degree-diploma) in Vancouver, BC.
+      I am an aspiring Machine Learning Engineer with a passion for solving complex problems. I bring three years of dense experience as a Process Engineer and Program Manager at a leading semiconductor manufacturing company, where I specialized in process optimization and cross-functional project management. I have a strong interest in challenging conventional thinking and pushing the boundaries of what’s considered impossible. Currently, I am pursuing a Post-Degree Diploma in Data Analytics at [Langara College](https://langara.ca/programs-courses/data-analytics-post-degree-diploma) in Vancouver, BC..
 
-      I am currently working on a project that will be used for Cancer Detection to have them treated as soon as possible.
+      I am also working on an applied research project focused on cancer detection, aiming to contribute to early diagnosis and better patient outcomes.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "Python"
-        - "R"
+        - "R / R-Markdown"
         - "SQL"
         - "MS Excel"
         - "MS PowerBI"
+        - "Google Looker Studio"
+        - "Git"
 
-
-  # Experience
   experience:
     enable: true
-    # title: "Custom Name"
     items:
-      - job: "Start up Volunteer"
+      - job: "Research Volunteer"
         company: "Langara College"
         companyUrl: "https://langara.ca/"
         date: "June 2025 - present"
         featuredLink:
           enable: true
           name: "Project Progress"
-          url: "https://example.com"
-        content: "Under Dr. Monica Nguyen. My team is currently working on a product in collaboration with [Copoly.ai](https://copoly.ai/) that will be used for Cancer Detection to have them treated as soon as possible."
+          url: "https://github.com/Patrick-Salazar/TSight"
+        content: "Under Dr. Monica Nguyen, I am leading the creation of TSight, a gene expression modeling pipeline developed to open a collaboration between [Copoly.ai](https://copoly.ai/) and [Langara College](https://https://langara.ca/). This project aims to improve early cancer detection by streamlining RNA-Seq analysis, automation, and predictive modeling to enable faster diagnosis and treatment planning."
 
-      - job: "Design / Senior Process Engineer"
+      - job: "Design / Process Engineer"
         company: "Texas Instruments "
         companyUrl: "https://https://www.ti.com"
         date: "April 2023 - April 2024"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          url: "https://www.linkedin.com/in/patrick-salazar/"
         info:
           enable: true
-          content: I worked under a dual role for one year in Texas Instruments.
+          content: I worked under a dual role in Texas Instruments.
         content: |
-          **Senior Process Engineer (Oct 2023 - Apr 2024)**
+          **Program Manager/ Design Engineer (May 2023 - Apr 2024)**
           - Increased production yield from 94.2% to 98.9% by analyzing manufacturing defect data using SQL and Excel, and redesigning 40+ leadframes based on engineering and manufacturing principle.
           - Reduced design cycle time by developing design templates from historical data patterns mined using SQL, Excel, and AutoCAD, cutting leadframe design time from 35 to 11 days and tripling quarterly output per designer
           - Led cost-saving projects by managing end-to-end engineering workflows from design to qualification, coordinating independently with manufacturing teams to deliver solutions that met both timeline and quality targets
 
-          **Design Engineer (Apr 2023 - Oct 2023)**
+          **Program Manager/ Process Engineer (Apr 2021 - April 2023)**
           - Co-managed the Wide Leadframe Program, generating ~$3M CAD in annual savings by analyzing supply-chain trends and manufacturing data using SQL and Excel to drive 90% QFN package implementation across industrial and automotivedevices from 2021 – 2024
           - Enhanced program efficiency by developing SQL-based KPI dashboards in SpotfireBI and Excel, enabling data-driven projects that reduced manufacturing cycle time by 12%
           - Managed cross-functional teams by supervising 10 technicians during engineering project execution, helping to achieve 97.4% production yield through data-informed process troubleshooting
 
-
-  # Education
   education:
     enable: true
-    # title: "Custom Name"
     index: false
     items:
       - title: "Post-Degree Diploma in Data Analytics"
@@ -225,11 +151,11 @@ params:
           name: "Lanagara College, Vancouver"
           url: "https://langara.ca/"
         date: "2024 - Present"
-        GPA: "3.9 out of 4.0"
+        GPA: "3.8 out of 4.0"
         content: |-
-          Extracurricular Activities
-            - Valorant
-            - CS GO
+            - Consistent Dean's Honour roll (Fall, Spring 2025)
+            - Spearheading an applied research project on cancer detection using gene expression modeling with a team of 3 students, under the supervision of Dr. Monica Nguyen.
+            - Lead most of the group projects in the program to success, accelerating me and my team members' learning as we transition to the field of data analytics.
       - title: "Bachelor of Science in Mechanical Engineering"
         school:
           name: "University of Santo Tomas, Manila"
@@ -237,41 +163,34 @@ params:
         date: "2015 - 2020"
         GPA: "3.6 out of 4"
         content: |-
-          XDD
-          - Placeholder
-          - Placeholder
+          - Dean's Honour roll (2019-2020)
+          - Director of Documentation of the Mechanical Engineering Club
+          - Active member of the Mechanical Engineering Club and Phiilippine Society of Mechanical Engineers (PSME)
 
-          Extracurricular Activities
-            - CS GO
-            - Bar
 
-  # Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
     items:
       - title: Texas Instruments Company Ambassador
-        content: "I was selected as a company ambassador for Texas Instruments."
-        url: https://example.com
+        content: "I was selected to be one of the Elite Company Ambassador's for Texas Instruments for showing and living the company values: Trustworthy, Inclusive, Innovative, Competetive, and Results-oriented."
+        url: https://www.linkedin.com/in/patrick-salazar/
+        image: /images/Ambassador.jpeg
+      - title: Dean's Honour Roll
+        content: "Consistently achieving Dean's Honour Roll in my Post-Degree Diploma in Data Analytics program at Langara College and in my Bachelor of Science in Mechanical Engineering at the University of Santo Tomas."
         image: /images/achievement.jpg
-      - title: Jack Kilby Inventor Award
-        content: "I was awarded the Jack Kilby Inventor Award for my contributions to the company....."
-        image: /images/achievement.jpg
-      - title: Technical Leadership Award
-        content: "I was awarded the Technical Leadership Award for handling the largest cost saving project in the company in my first year."  
-        image: /images/achievement.jpg
+      - title: Bachelor of Science in Mechanical Engineering
+        content: "I graduated with a Bachelor of Science in Mechanical Engineering from the University of Santo Tomas, Manila, with a GPA of 3.6 out of 4.0."
+        image: /images/BS_Degree.jpeg
 
-  # projects
   projects:
     enable: true
-    # title: "Custom Name"
     items:
       - title: TSight - Cancer Detection AI Tool
         content: Tissue-Based Gene Expression Modeling for Cancer Detection
         image: /images/projects/TSight.png
         featured:
           name: In-Progress
-          link: https://github.com/Patrick-Salazar
+          link: https://github.com/Patrick-Salazar/TSight
         badges:
           - "Machine Learning"
           - "Python"
@@ -282,14 +201,14 @@ params:
           - icon: fa fa-envelope
             url: mailto:patrickgabriel.salazar@yahoo.com
           - icon: fab fa-github
-            url: https://github.com/Patrick-Salazar
+            url: https://github.com/Patrick-Salazar/TSight
 
-      - title: Palmber Penguin - Prediction of Foraging Behavior
+      - title: Palmer Penguin - Prediction of Foraging Behavior
         content: Predict the foraging strategy of the “Penguins”, based on their physical characteristics and geographical conditions.
         image: /images/projects/Penguin2.jpg
         featured:
-          name: In-Progress
-          link: https://github.com/Patrick-Salazar
+          name: Done
+          link: https://github.com/Patrick-Salazar/Palmer-Penguins-Linear-Regression
         badges:
           - "ML: Linear Regression"
           - "R Programming"
@@ -298,49 +217,89 @@ params:
           - icon: fa fa-envelope
             url: mailto:patrickgabriel.salazar@yahoo.com
           - icon: fab fa-github
-            url: https://github.com/Patrick-Salazar
+            url: https://github.com/Patrick-Salazar/Palmer-Penguins-Linear-Regression
 
       - title: BC Canada Wildfire Analysis
         content: An analysis of the 2014-2023 BC Canada Wildfire using R and R Markdown.
         image: /images/projects/BCWildfire.png
         featured:
-          name: In-Progress
-          link: https://github.com/Patrick-Salazar
+          name: Done
+          link: https://github.com/Patrick-Salazar/BC-Wildfire-Analysis
         badges:
           - "Exploratory Data Analysis"
           - "R Programming"
-          - "R Mardown"
+          - "R Markdown"
+          
         links:
           - icon: fa fa-envelope
             url: mailto:patrickgabriel.salazar@yahoo.com
           - icon: fab fa-github
-            url: https://github.com/Patrick-Salazar
+            url: https://github.com/Patrick-Salazar/BC-Wildfire-Analysis
 
+      - title: Medicare Insurance Analysis
+        content: An exploratory data analysis of the Medicare Insurance (Part-D).
+        image: /images/projects/Medicare.png
+        featured:
+          name: Done
+          link: https://github.com/Patrick-Salazar/Medicare_EDA
+        badges:
+          - "Exploratory Data Analysis"
+          - "R Programming"
+          - "R Markdown"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:patrickgabriel.salazar@yahoo.com
+          - icon: fab fa-github
+            url: https://github.com/Patrick-Salazar/Medicare_EDA
 
-  #Contact
+      - title: HR Analytics - Job Change Prediction
+        content: A logistic regression modelling project to predict whether an employee will change jobs based on multiple categorical and numerical features.
+        image: /images/projects/HR_Analytics.png
+        featured:
+          name: Done
+          link: https://github.com/Patrick-Salazar/HR-Analytics-Job-Change
+        badges:
+          - "Logistic Regression"
+          - "Exploratory Data Analysis"
+          - "Feature Engineering"
+          - "R Programming"
+          - "R Markdown"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:patrickgabriel.salazar@yahoo.com
+          - icon: fab fa-github
+            url: https://github.com/Patrick-Salazar/HR-Analytics-Job-Change
+
+      - title: E-commerce Analysis - Explorary Data Analysis
+        content: An exploratory data analysis of an e-commerce dataset to understand customer behavior and sales trends.
+        image: /images/projects/Olist.png
+        featured:
+          name: Done
+          link: https://github.com/Patrick-Salazar/Olist_Ecommerce-EDA
+        badges:
+          - "Exploratory Data Analysis"
+          - "Feature Engineering"
+          - "Data Wrangling"
+          - "Python"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:patrickgabriel.salazar@yahoo.com
+          - icon: fab fa-github
+            url: https://github.com/Patrick-Salazar/Olist_Ecommerce-EDA
   contact:
     enable: true
-    # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
     btnLink: mailto:patrickgabriel.salazar@yahoo.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
 
   footer:
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
 
-  # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
 
-  # Single pages like blog and post
   singlePages:
     socialShare: true
     readTime:
@@ -351,7 +310,6 @@ params:
     tags:
       openInNewTab: true
 
-  # For translations
   terms:
     read: "Read"
     toc: "Table Of Contents"
@@ -363,6 +321,3 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
-
-  #customScripts: -| # You can add custom scripts which will be added before </body> tag
-  #  <script type="text/javascript"><!-- any script here --></script>
