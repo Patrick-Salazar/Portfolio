@@ -205,7 +205,7 @@ params:
 
       - title: Palmer Penguin - Prediction of Foraging Behavior
         content: Predict the foraging strategy of the “Penguins”, based on their physical characteristics and geographical conditions.
-        image: /images/projects/Penguin2.jpg
+        image: /images/projects/penguin2.jpg
         featured:
           name: Done
           link: https://github.com/Patrick-Salazar/Palmer-Penguins-Linear-Regression
